@@ -51,3 +51,20 @@
 1.讓Map可以用iottalk輸入顯示路徑規劃
 2.寫英文Map document
 3.尋找要報告的paper
+
+顏泰翔
+1.GUI: 修正device object的df_name過長的顯示問題。
+	*對該div的overflow屬性設為hidden。
+2.GUI: 修正第一次畫join link時，偶爾會跑版問題
+	*可能為畫線用的canvas在首次render時，尚未做resize的調整，導致實際位置有誤，修改resize的呼叫時機。
+3.CCM: 修正對已登入過之使用者，若回到登入畫面以錯誤的使用者資訊登入時，仍會被視為已登入的使用者。
+	*當server端已有該連線階段的使用者資訊時，會無條件的視為已登入使用者。
+	 修正為若重新收到登入資訊，會先清除前一登入資訊。
+4.CCM:修改python檔案的import方式以符合一套件應有架構，並支援以python套件管理進行安裝。
+5.Simulator:修正使用simulator時，無法正常deregister。
+	*當simulator執行在subprocess，收到terminal的signal時，由於未等待完整的deregister的執行就結束process。
+	 使用lock來等待deregister完成才結束process。
+6.ESM:修正會出現暴量的斷線問題。
+	*MQTT的client端對server進行連線時，需由client端提供一client_id，而mosquitto server端只允許同一client_id只可有一個連線，
+	 ESM實作上使用了相同的client_id，導致後面的ESM將前面的ESM踢除。
+	 已修改為每一個ESM的client_id為一任意uuid。
