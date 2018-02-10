@@ -29,3 +29,12 @@
     2.1.2. 調整HTC VIVE頭戴顯示器傳輸線的位置
   2.2. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
   2.3. 2/10星期六參加實驗室的訓練課程，學習區塊鏈、LPWAN、machine learning
+
+劉啟亦
+1.已完成:
+  1.1 重新繪製asus-iottalk架構圖
+  1.2 完成以zope event方式改寫裝置push資料模式
+  1.3 以session方式修正requests斷線問題
+2.預計完成:
+  2.1 review code並以有意義的名字命名變數及函式
+  2.2 大掃除
