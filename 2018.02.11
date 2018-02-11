@@ -68,6 +68,7 @@
 	*MQTT的client端對server進行連線時，需由client端提供一client_id，而mosquitto server端只允許同一client_id只可有一個連線，
 	 ESM實作上使用了相同的client_id，導致後面的ESM將前面的ESM踢除。
 	 已修改為每一個ESM的client_id為一任意uuid。
+
 王懷恩
 1.準備下次meeting報的paper
 2.照著林博指示前進(研究iottalk v2)
