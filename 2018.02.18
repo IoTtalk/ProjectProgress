@@ -1,0 +1,12 @@
+楊明達
+1. 已經完成之工作項目:
+  1.1 架設VR諸葛四郎遊戲系統
+    1.1.1. 調整遊戲的”正面”朝向窗戶，操作時才不會撞到展示架
+    1.1.2. 調整HTC VIVE頭戴顯示器傳輸線的位置於展示架後方，但長度只能到展示架前方一些些，需要更換為較長的USB與HDMI線
+  1.2 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+    1.2.1 在IEEE用關鍵字”orientation” “head-mounted display”搜尋論文，尚未看到有趣的應用
+  1.3. 2/10星期六參加實驗室的訓練課程，學習區塊鏈、LPWAN、machine learning
+2. 預計進行之工作項目:
+  2.1. 架設VR諸葛四郎遊戲系統
+    2.1.1. 詢問HTC VIVE所使用的HDMI與USB的規格，與支援的最長長度，再買來替換
+  2.2. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
