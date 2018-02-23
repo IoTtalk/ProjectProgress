@@ -9,3 +9,15 @@
   2.1. 架設VR諸葛四郎遊戲系統
     2.1.1.購買與安裝較長的USB與HDMI線, HTC VIVE就不會被限制只能在展示架前一點點
   2.2. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+
+曾浤鈞
+1.  修正NB-IoT paper圖檔。
+2.  NB-IoT paper 數學推導部分的校稿。
+3.  停車資料的整裡和與Gamma分佈的比較。 
+4.  實驗室訓練課程後續的報帳事宜 。
+5.  NB-IoT Management的web UI完成部分，包含按鈕、表格的呈現和按鈕的點擊事件，
+    版面暫時沒有考慮排版，與後台的互動也還沒作。
+預計進行：
+1.  驗證 NB-IoT paper 數學推導部分 。
+2.  NB-IoT paper 整篇的閱讀和校稿。
+3.  上述兩項有完成，則繼續 NB-IoT Management的UI撰寫。
