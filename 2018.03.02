@@ -1,4 +1,17 @@
 楊明達
+1. 已經完成之工作項目:
+  1.1. 架設VR諸葛四郎遊戲系統
+    1.1.1. 完成安裝5公尺長的USB與HDMI線, 讓使用HTC VIVE時較不會被傳輸線的長度限制
+    1.1.2. 將VR電腦移置展示櫃右下角, 較不顯眼
+  1.2. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+    1.2.1 找到一篇相關的會議論文, 其利用使用者配戴的smart glass偵測並辨識欲控制的家電, 其中使用orientation來幫助過濾可能的家電, 然後顯示可用的控制命令於鏡片上, 再透過腦波/肌電儀判斷使用者選擇的命令, 並且對家電發出控制命令, 詳細論文資料如下與附件, 會再仔細研讀
+        1.2.1.1. E. De Buyser, E. De Coninck, B. Dhoedt, P. Simoens ,“Exploring the potential of combining smart glasses and consumer-grade EEG/EMG headsets for controlling IoT appliances in the smart home, ” TechAAL 2016
+        1.2.1.2. http://ieeexplore.ieee.org/document/7801337/ 
+2. 預計進行之工作項目:
+  2.1. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+    2.1.1 研讀本週找到的論文 “Exploring the potential of combining smart glasses and consumer-grade EEG/EMG headsets for controlling IoT appliances in the smart home”
+  2.2 準備下星期二晚上的Lab Meeting
+
 
 曾浤鈞
 本周進度：
