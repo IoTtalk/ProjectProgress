@@ -26,6 +26,12 @@
   3.  上述兩項有完成，則繼續 NB-IoT Management的UI撰寫。
 
 劉啟亦
+1. 已完成
+ 1.1 修改db_const以完成device model對應產生device feature
+ 1.2 完成支援智慧插座的DA
+2. 預計完成
+ 2.1 構思智慧插座影片
+ 2.2 拍攝門鎖子母畫面
   
 陳薪雅
 
