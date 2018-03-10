@@ -24,3 +24,42 @@
 陳薪雅
 
 王懷恩
+
+顏泰翔
+	1. 建立DB的 migrate機制。
+		-當有DB的schema變動、或有其他系統值需新增移除時，可於重啟server時自動執行。
+	2. GUI登入支援next page的重導向功能。
+		-之前未作重導向，當使用者點選要進入device feature manage頁面時，會先被重導至login page，
+		 登入後會被重導至connection頁面。
+	3. 協助俊翰將esp8266連上iottalk
+	4. 提供DB的一些cli指令: 
+		-create(新建DB不含任何系統預設值)、
+		-init(新建DB並使用系統預設值)、 
+		-import(匯入自定義的json檔): 
+			此功能未來可提供device feature manage頁面的import功能，
+			當拿到其他使用者寫好的da，可請他一併提供df、dm的定義json，即可快速使用da。
+	5. 比照Device Feature新增Tag相關的DB table：
+		-Tag : 儲存tag基本資料
+			tag_id
+			tag_name
+		-Tag_Parameter : 儲存tag的data格式資料
+			tp_id
+			tag_id
+			param_i
+			param_type
+			min
+			max
+			unit_id
+		-DM_DF_TAG : 記錄每個dm_df用到了哪些tag，可支援多個 tag
+			mft_id
+			mf_id
+			tag_id
+	6. 比照Device Featurey新增Tag相關的ccm api：
+		-create_tag
+
+
+	 TODO：
+		1. Tag的GUI相關操作
+		2. DM_DF的Tag修改api
+		3. ESM支援Tag的相關功能
+		4. DAN支援Tag的相關功能
