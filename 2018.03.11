@@ -73,5 +73,22 @@
 		3. 寫MorSocket 文件。
 		4. 利用 ”Selenium - Web Browser Automation“ 來測試猜畫遊戲的網頁。
 
+蕭中芸
+已經完成之工作項目：
+    1. IoT科技藝術應用課程：已上完第一週規劃的進度(介紹IoT互動藝術作品案例、介紹IoTtalk物聯網平台)，學生已協助建立課程fb。
+    2. Frame：建立自動測試程式來測試processing IDA，目前已經持續run了2M次以上並沒遇到問題，會繼續測試。
+    3. 中華電信明日生活館狀況：中華電信回覆，目前初步預估時程會在5月。
+    4. MONET paper：還在accept狀態，還沒有收到要camera ready通知。
+    5. 協助黃致傑老師展覽電腦程式更新與設定。
 
-教安
+預計進行之工作項目：
+    1. IoT科技藝術應用課程：
+        1.1 準備課程、完成第二週規劃進度(IoTtalk操作示範與實際演練、311參觀)。
+        1.2 Processing教材準備(進行中)。
+    2. Frame：
+        2.1 架構圖、define ODF(整理中，會再約老師meeting)。
+        2.2 立寬協助整體系統自動測試(從web端到processing顯示端)。
+        2.3 Prefetch實作程式測試。
+    3. 新狂草書法動畫：書民製作中。
+    4. 手機互動藝術作品規劃(pending)。
+
