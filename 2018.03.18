@@ -1,4 +1,3 @@
-
 楊明達
 1. 已經完成之工作項目:
   1.1. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
@@ -6,3 +5,14 @@
 2. 預計進行之工作項目:
   2.1. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
     2.1.1. 繼續實作可用HTC VIVE選取VR中看到的物件
+
+曾浤鈞
+本周進度：
+    1.  將paper submit出去。
+    2.  準備3/20 group meeting的資料和簡報。
+    3.  完成NB-IoT Management的Service Provider頁面，
+        包含畫面顯示的UI和跟後台的存取互動(使用ajax)。
+    4.  完成專題生的座位安排。
+預計進度：
+    1.  3/20 group meeting的報告。
+    2.  繼續 NB-IoT Management的UI撰寫。
