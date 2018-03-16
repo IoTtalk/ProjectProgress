@@ -1,0 +1,8 @@
+
+楊明達
+1. 已經完成之工作項目:
+  1.1. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+    1.1.1. 已經找到可以取得VIVI Controller在VR中的選取動作的方法, 正在實作用IDF的方式將動作傳送給IoTtalk
+2. 預計進行之工作項目:
+  2.1. 研究HTC VIVE的orientation可以和IoTtalk有什麼互動應用
+    2.1.1. 繼續實作可用HTC VIVE選取VR中看到的物件
