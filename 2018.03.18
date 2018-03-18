@@ -65,3 +65,6 @@
         2.2.1 使用requests原生套件的function來做decode
         2.2.2 json格式可能使用到[']或是['\"]交互使用, json套件可能會解錯
 
+王懷恩
+	1.畫 ESM/CSM 內部架構圖
+
