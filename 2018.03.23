@@ -25,7 +25,8 @@
 
 
 陳立寬
-
+1. 測量MorSocket: Sensor to DAI, DAI to IDA, APP to IDA, APP to DAI 時間，並將BLE控制 MorSocket, Wi-Fi 控制 MorSocket, 
+IoTtalk 控制 MorSocket 三條路線的時間畫成histogram。
 
 劉啟亦
 
