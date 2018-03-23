@@ -1,0 +1,38 @@
+楊明達
+
+
+曾浤鈞
+本周進度：
+    1.  準備3/20 group meeting的資料和報告。
+    2.  完成NB-IoT Management的Service Provider頁面的錯誤處理，
+        包含使用者填錯帳號密碼和主機位址，
+        網頁會回報使用者錯誤資訊，
+        這裡用到web和msghandler之間的行程通訊(IPC)和
+        前端UI與後台的存取互動(使用ajax) ，
+        下面是網頁的截圖。
+                    
+    3.  完成NB-IoT Management的Device Group Management頁面的部分功能，
+        包含跟IoTtalk Server取得model list和跟msghandler取得跟指定model相關的IMEI，
+        一樣使用到行程通訊(IPC)和ajax ，   
+        下面是網頁的截圖。
+                    
+預計進度：
+    1.  繼續 NB-IoT Management的UI撰寫。
+    2.  因為去年購置很多財產，前陣子忙paper的事情，
+        因此，預計下周整理新購置的財產。
+
+蕭中芸：
+
+
+陳立寬
+
+
+劉啟亦
+
+	
+陳薪雅
+
+
+王懷恩
+
+
