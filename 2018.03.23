@@ -27,7 +27,25 @@
         因此，預計下周整理新購置的財產。
 
 蕭中芸：
-
+已經完成之工作項目：
+    1. IoT科技藝術應用課程：已上完第三週規劃的進度(Processing入門，出HW 1)，學生目前狀況都還不錯。持續準備Processing教材。
+    2. 大煙囪計畫：3/23下午開會(與會者：賴雯淑老師、許倍銜老師、李東霖博後)，討論科技部計畫書內容分工。目前IoT寫在子計畫三，子計畫三主持人掛建築所侯君昊老師，我負責規劃IoT內容、經費等等，週末會把IoTtalk部分填入計畫書中，deadline禮拜一。
+    3. 電腦視覺助教：hw1 introduction slides製作。
+    4. Frame：程式改到一半，處理其他事情打斷中，待把有deadline的處理完會繼續！
+    5. MONET paper：還在accept狀態，還沒有收到要camera ready通知。
+    6. 專題生討論：上萱、皓婷目前學習javascript中。
+    7. 新狂草書法動畫：書民製作好第一幅初版，細節他在調整中。
+預計進行之工作項目：
+    1. IoT科技藝術應用課程：
+        1.1 準備課程、完成第四週規劃進度(Processing II)
+        1.2 Processing教材準備(進行中)。
+    2. 大煙囪計畫書：預計3/29李東霖博士彙整完，期間需要協助會幫忙IoT部分。
+    3. Frame：盡快處理完大煙囪計畫書和IoT備課會繼續弄！
+        3.1 架構圖、ODF。
+        3.2 Prefetch程式(測試改進中)。
+    4. 新狂草書法動畫：書民調整第一幅細節。
+    5. 手機互動藝術作品規劃(pending)。
+    6. 中華電信明日生活館：中華電信初步預估時程在5月。
 
 陳立寬
 1. 測量MorSocket: Sensor to DAI, DAI to IDA, APP to IDA, APP to DAI 時間，並將BLE控制 MorSocket, Wi-Fi 控制 MorSocket, 
