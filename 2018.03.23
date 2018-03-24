@@ -58,5 +58,6 @@ IoTtalk 控制 MorSocket 三條路線的時間畫成histogram。
 
 
 王懷恩
-
+1. 畫 RAProtoHandler圖
+2. 做 Graph Server
 
