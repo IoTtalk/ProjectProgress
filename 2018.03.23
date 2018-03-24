@@ -52,6 +52,21 @@
 IoTtalk 控制 MorSocket 三條路線的時間畫成histogram。
 
 劉啟亦
+本周已完成:
+    1.1 將server增加名為logging的module改寫:
+        這是為了能將長時間運作的server資訊加上時間側錄下來所做的,
+        現在server運行時, 不僅能在terminal顯示, 也能輸出log到txt檔案, 方便做到debug
+    1.2 繼續將asustalk server的長時間無法運作bug陸續修正,
+        以下是目前已經找出的問題及方法:
+        1.2.1 [Expecting value: line 1 column 1 (char 0)]
+              解決方法: 已查出是api 有時候再短時間內太頻繁呼叫會回傳空字串, 所以會先check字串之後
+                        再使用requests原生套件的function來做decode, 而不是使用json的
+        1.2.2 [Max retries exceeded with url]
+              解決方法: 推測是session連線數到達上限, 針對每次完成功能的sessnion做close
+預計完成:
+  2.1 目前新的bug一樣為:
+      [Max retries exceeded with url]
+      而根據log顯示是DAN在做control_channel 時發生錯誤,還需要再研究是哪邊有誤
 
 	
 陳薪雅
