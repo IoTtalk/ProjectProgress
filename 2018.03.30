@@ -30,3 +30,20 @@
 4. 手機互動藝術作品規劃(pending)。
 5. 中華電信明日生活館：中華電信初步預估時程在5月。
 
+劉啟亦
+本周已完成:
+    1.1 高等unix程式設計 hw1
+    1.2 繼續將asustalk server的長時間無法運作bug陸續修正, 以下是目前已經找出的問題及方法:
+        1.2.1 [Max retries exceeded with url] (DAN的control_channel)
+              解決方法: 在與林博討論之後,
+                        將 DAN在做control_channel 的code都註解起來,因為該段code會在重新連線時, 
+                        會自己多開一個thread, 根據上周放置兩天以上的測試(2次), 目前並沒有再發生
+預計完成:
+  2.1 目前新的bug一樣為:
+      [Max retries exceeded with url] (device斷線重新連線失敗)
+      現在asustalk sevrver 已可正常運作至少兩天, 當中會發生device 有ConnectionError,
+      不過這實屬正常現象, 因為device 本來就有可能會斷線, 但deivce 在重新連線的過程, 會不斷失敗然後再去嘗試連線,
+      最後導致max retries的bug
+  2.2 預計解決方法:
+        會先從自己實作的DAI 這邊檢視register 的function,
+        但實際運作的DAN 也應該會一併review 一次,還需要研究才能找出問題
