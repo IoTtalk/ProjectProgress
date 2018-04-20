@@ -1,0 +1,22 @@
+曾浤鈞
+本周進度：
+1.	NB-IoT Management的Device Group Management頁面修正，
+    Device Modle 欄位改顯示目前NB-IoT系統下的裝置種類，
+    現在現行的種類只有兩個，ParkingLot和 Temp/Humidity兩種，
+    這個部分包含網頁前後台資料交換與後台和IDA的行程通訊，
+    列表內容是藉由行程通訊從IDA獲得( IDA 從NB-IoT Server獲得，藉由MQTT)。
+2.	發現python DA 的session的blocking問題，
+    當不同執行緒都要控制同一個session的時候，
+    並且跟勻蔚學長修正了該問題， 
+    此外，已經將非物件導向的DA版本，
+    改成因應目前需要的物件導向版本， 
+    並且已經應用到尚未改版的DA上進行session連線數的測試。
+3.	關於CHT IDA在長時間運行的情況下， DA會自己停止傳送資料的問題， 
+    經多方測試，發現應該是沒有管控好process的緩衝區，
+    造成緩衝區爆滿而造成process無法正常運作所導致，
+    因為是利用http server使用subprocess模塊執行IDA程式， 
+    所以，是背景執行，需要自己處理subprocess的緩衝區， 
+    已經修正程式碼，正在進行長時間測試。
+
+預計下次進度：
+1.	進行CHT IDA 的程式碼的改版，改版到NB-IoT model可以用的情況。 
