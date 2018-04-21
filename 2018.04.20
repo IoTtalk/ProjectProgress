@@ -20,3 +20,23 @@
 
 預計下次進度：
 1.	進行CHT IDA 的程式碼的改版，改版到NB-IoT model可以用的情況。 
+
+
+楊明達
+本週進度如下:
+1 已經完成之工作項目:
+    1.1 4D Theater的revision report
+    1.2 思考IoT魚塭 + 水下載具Remotely Operated Vehicle (ROV)的應用
+        1.2.1 找到一篇論文是關於魚的swimming pattern與量測body length, 如附件, 會再研讀” Measurement of swimming pattern and body length of cultured Chinese sturgeon by use of imaging sonar”
+    1.3 博班proposal
+        1.3.1 暫定題目”A Study on Interactive Application for Internet of Thing”, 包含以下2篇已發表論文, 會再思考是否適合
+            1.3.1.1 “ArduTalk: An Arduino Network Application Development Platform based on IoTtalk”
+            1.3.1.2 “Low-Cost 4D Experience Theater Using Home Appliances”
+    1.4 完成必修英文課的作業
+
+2 預計進行之工作項目:
+    2.1 研讀論文
+    2.2 準備博班proposal
+    2.3 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
+    2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
+
