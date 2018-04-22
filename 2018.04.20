@@ -40,3 +40,12 @@
     2.3 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
     2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
 
+劉啟亦
+本周已完成:
+    1.1 高等unix程式設計的期中考
+    1.2 修復asustalk server 中的 thread之間溝通bug:
+        zope.event的套件在server長時間運行時, 此套件會很常失效(掉資料)
+        導致資料無法在thread 之間傳遞
+        [解決方法]以global variable的寫法改寫, 並已測試過
+預計完成:
+    2.1 寫asustalk 的report
