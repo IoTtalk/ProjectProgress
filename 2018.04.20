@@ -49,3 +49,27 @@
         [解決方法]以global variable的寫法改寫, 並已測試過
 預計完成:
     2.1 寫asustalk 的report
+    
+陳薪雅
+已經完成之工作項目：
+1. 準備無線網路期中考
+2. 寫嵌入式即時系統修課lab
+3. 正在實作"新增應用"的功能
+    1.1 更改成最新版本的csmapi.py與DAN.py並接上IoTtalk device feature 的顯示功能
+    1.2 更新測試database接口運作
+預計進行之工作項目：
+1.新增 admin page 新增 app 設定功能
+2.新增 admin page 修改/刪除 app 功能
+3.新增動態更改IoTtalk device feature 顯示功能
+4.新增 admin page 新增 stationary app 的 icon 功能
+5.新增 admin page 修改/刪除 stationary app 的 icon 功能
+6.新增 admin page quick access 功能
+7.新增 admin page show all/ hide all 功能
+8.改寫 user page location change 功能
+9.新增 user page value change 功能
+10.改寫 user page 顯示emergency功能
+11.新增 user page show all/ hide all 功能 
+12.改寫攝影機設定及顯示功能
+13.改寫路障設定及顯示功能
+14.寫Map架構圖的 document
+15.找meeting要報告的paper
