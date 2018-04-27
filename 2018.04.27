@@ -1,0 +1,16 @@
+楊明達
+本週進度如下:
+1 已經完成之工作項目:
+  1.1思考IoT魚塭 + 水下載具Remotely Operated Vehicle (ROV)的應用
+    1.1.1 找到一篇論文是使用會移動的攝影機來追蹤魚的技術, 如附件, 會再研讀” Underwater Fish Tracking for Moving Cameras Based on Deformable Multiple Kernels”
+  1.2 完成必修英文課的作業與準備期中報告
+  1.3 提供ROV的照片給老師
+  1.4 尋找可在戶外使用且已與網頁整合過的IP Cam和經銷商的資訊給莊博, 如下清單
+    1.4.1 https://www.vivotek.com/website/ptz-cameras/#type-filter:path=.ptz|resolution-filter:path=default|snv-filter:path=default|wdr-filter:path=default|lens-filter:path=default|ir-filter:path=default|environment-filter:path=.outdoor|views:view=jplist-grid-view 
+2 預計進行之工作項目:
+  2.1 研讀論文
+  2.2 準備博班proposal
+  2.3 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
+  2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
+  2.5 必修英文課的期中報告
+
