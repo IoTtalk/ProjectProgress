@@ -35,3 +35,14 @@
 10.改寫路障設定及顯示功能
 11.寫Map架構圖的 document
 12.找meeting要報告的paper
+
+劉啟亦
+本周已完成:
+    1.1 找出asustalk server 長期運行會無法work 的原因:
+        太過頻繁呼叫api會被該雲端主機服務商
+        認為是惡意的連線, 進而導致server會被block住.
+    1.2 改動asustalk server 執行裝置的機制:
+        讓asustalk server 無視裝置狀態, 立即執行收到的指令.
+    1.3 與林博一同展示asus doorlock 給凌群.
+預計完成:
+    2.1 本周四要前往凌群,討論本次合作的細節
