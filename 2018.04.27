@@ -14,3 +14,24 @@
   2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
   2.5 必修英文課的期中報告
 
+陳薪雅
+已經完成之工作項目：
+1. 寫物聯網修課作業
+2. 正在實作"新增應用"的功能
+    2.1 新增 admin page 新增 app 設定功能
+    2.2 新增 admin page 修改/刪除 app 功能
+    2.3 新增動態更改IoTtalk device feature 顯示功能
+ 
+預計進行之工作項目：
+1.新增 admin page 新增 stationary app 的 icon 功能
+2.新增 admin page 修改/刪除 stationary app 的 icon 功能
+3.新增 admin page quick access 功能
+4.新增 admin page show all/ hide all 功能
+5.改寫 user page location change 功能
+6.新增 user page value change 功能
+7.改寫 user page 顯示emergency功能
+8.新增 user page show all/ hide all 功能 
+9.改寫攝影機設定及顯示功能
+10.改寫路障設定及顯示功能
+11.寫Map架構圖的 document
+12.找meeting要報告的paper
