@@ -54,3 +54,21 @@
 6.改寫路障設定及顯示功能
 7.寫Map架構圖的 document
 8.撰寫paper報告ppt
+
+劉啟亦
+本周已完成:
+    1.1 前往凌群協助工程師使用實驗室軟體:
+        協助如何架設iottalk server / 簡介iottalk gui 的操作
+        說明sample DA: dummy_device的使用
+        設置asus gateway&doorlock環境 / 測試asustalk server
+    1.2 呈上1.1, 測試後發現
+        a. 凌群公司內網有防火牆會阻擋asus api的使用,
+           已告知工程師必須使用外部網路.
+        b. 由於使用外部網路,
+           導致api 回應的延遲時間非常久,
+           (從實驗室的5s 變成15s 的delay)
+           所以在現場有調整asustalk code:
+           讓server被過長的延遲導致錯誤時,
+           能重新嘗試的並隨著失敗次數延長等待秒數.
+預計完成:
+    2.1 寫asustalk 的文件:
