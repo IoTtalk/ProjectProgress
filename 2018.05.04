@@ -36,3 +36,21 @@
     2.4 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
     2.5 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
 
+陳薪雅
+已經完成之工作項目：
+1. 研讀meeting要報告的paper
+2. 正在實作"新增應用"的功能
+    2.1 新增 admin page 新增 stationary app 的 icon 功能
+    2.2 新增 admin page 修改/刪除 stationary app 的 icon 功能
+    2.3 新增 admin page quick access 功能
+    2.4 新增 admin page show all/ hide all 功能
+ 
+預計進行之工作項目：
+1.改寫 user page location change 功能
+2.新增 user page value change 功能
+3.改寫 user page 顯示emergency功能
+4.新增 user page show all/ hide all 功能 
+5.改寫攝影機設定及顯示功能
+6.改寫路障設定及顯示功能
+7.寫Map架構圖的 document
+8.撰寫paper報告ppt
