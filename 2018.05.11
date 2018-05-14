@@ -8,3 +8,20 @@
   2.2 準備博班proposal
   2.3 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
   2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
+
+
+陳薪雅
+已經完成之工作項目：
+1. 撰寫paper報告ppt
+2.準備嵌入式即時系統期中考
+3.準備物聯網修課報告
+4. 正在實作"新增應用"的功能
+    2.1 新增 user page show all/ hide all 功能
+    2.2 改寫攝影機設定及顯示功能
+    2.3 改寫路障設定及顯示功能
+ 
+預計進行之工作項目：
+1.改寫 user page location change 功能
+2.新增 user page value change 功能
+3.改寫 user page 顯示emergency功能
+4.寫Map架構圖的 document
