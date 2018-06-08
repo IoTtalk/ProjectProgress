@@ -1,0 +1,21 @@
+楊明達
+本週進度如下:
+1 已經完成之工作項目:
+  1.1	協助薪雅設定NCTU IP CAM的RTSP功能, 並提供整合到map中的作法
+  1.2	完成group meeting的報告
+  1.3	準備博班proposal
+  1.4	研究中山大學的洪慶章教授所做的水下監控攝影機與物聯網, 並與浤鈞討論
+    1.4.1	Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4995459/  
+    1.4.2	新聞影片: https://www.youtube.com/watch?v=mvWA7glw7aw 
+    1.4.3	物聯網: https://www.youtube.com/watch?v=oN0F_pxhhs8 
+    1.4.4	他的攝影機是使用最小照明15 Lux的CMOS攝影機, 搭配紅外線 (780 nm) LED 燈泡, 所以可在黑暗中觀看, 雖然新聞影片中說水混濁也能使用, 但是能見度應該也不遠
+  1.5	與怡廷討論他需要的攝影機
+    1.5.1	他的作法是” 利用kinect 參數將depth image 轉為 3D point cloud”, 再去做追蹤
+    1.5.2	所以原本以為他只用紅外線攝影機, 但其實不是, 而是需要有深度的資訊, 例如kinect 
+    1.5.3	目前是用princeton的datasets做實驗, 尚未直接處理攝影機的影像 http://tracking.cs.princeton.edu/dataset.html 
+2 預計進行之工作項目:
+  2.1 研究kinect是否能在水下取得深度資訊
+  2.2 研究另一篇論文是用一般的攝影機影像做multiple object tracking “Underwater Fish Tracking for Moving Cameras Based on Deformable Multiple Kernels”
+  2.2 準備博班proposal, 預計7/16
+  2.3 把ROV上的攝影機畫面呈現在htc vive頭戴顯示器中
+  2.4 做個Circular Progress Ring讓使用者知道經過5秒鐘並確認選取該VR物件
